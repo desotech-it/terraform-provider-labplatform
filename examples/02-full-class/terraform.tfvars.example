@@ -1,0 +1,31 @@
+# Copia questo file in terraform.tfvars e inserisci i tuoi valori
+# cp terraform.tfvars.example terraform.tfvars
+
+github_token     = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+trainer_password = "Trainer2026!"
+student_password = "Student2026!"
+course_start_date = "2026-03-23"
+
+students = [
+  {
+    username   = "mario.rossi"
+    first_name = "Mario"
+    last_name  = "Rossi"
+    email      = "mario.rossi@example.com"
+    company    = "Acme S.r.l."
+  },
+  {
+    username   = "laura.bianchi"
+    first_name = "Laura"
+    last_name  = "Bianchi"
+    email      = "laura.bianchi@example.com"
+    company    = "Acme S.r.l."
+  },
+  {
+    username   = "giovanni.verdi"
+    first_name = "Giovanni"
+    last_name  = "Verdi"
+    email      = "giovanni.verdi@example.com"
+    company    = "TechCorp"
+  },
+]
